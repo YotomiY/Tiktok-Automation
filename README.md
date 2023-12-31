@@ -49,7 +49,7 @@ Tiktok-Automation has undergone rigorous testing on Windows 10, Windows 11 and U
 First clone the repository
 
 ```bash
-git clone https://github.com/MatteoFasulo/Tiktok-Automation.git
+git clone https://github.com/YotomiY/Tiktok-Automation.git
 ```
 
 # Dependencies 🌿
