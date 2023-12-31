@@ -1,6 +1,10 @@
 # Introducing Whisper-TikTok 🤖🎥
 
 Discover Whisper-TikTok, an innovative AI-powered tool that leverages the prowess of **Edge TTS**, **OpenAI-Whisper**, and **FFMPEG** to craft captivating TikTok videos. Harnessing the capabilities of OpenAI's Whisper model, Whisper-TikTok effortlessly generates an accurate **transcription** from provided audio files, laying the foundation for the creation of mesmerizing TikTok videos through the utilization of **FFMPEG**. Additionally, the program seamlessly integrates the **Microsoft Edge Cloud Text-to-Speech (TTS) API** to lend a vibrant **voiceover** to the video. Opting for Microsoft Edge Cloud TTS API's voiceover is a deliberate choice, as it delivers a remarkably **natural and authentic** auditory experience, setting it apart from the often monotonous and artificial voiceovers prevalent in numerous TikTok videos.
+
+## THIS IS NOT ALL MY CODE!!! THE ORIGINAL REPOSITORY IS:
+https://github.com/MatteoFasulo/Whisper-TikTok/
+
 ## Webui 🎨
 
 ![Webui](docs/WebuiDemo.png)
