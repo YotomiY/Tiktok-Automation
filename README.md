@@ -1,6 +1,6 @@
-# Introducing Whisper-TikTok 🤖🎥
+# Introducing Tiktok-Automation 🤖🎥
 
-Discover Whisper-TikTok, an innovative AI-powered tool that leverages the prowess of **Edge TTS**, **OpenAI-Whisper**, and **FFMPEG** to craft captivating TikTok videos. Harnessing the capabilities of OpenAI's Whisper model, Whisper-TikTok effortlessly generates an accurate **transcription** from provided audio files, laying the foundation for the creation of mesmerizing TikTok videos through the utilization of **FFMPEG**. Additionally, the program seamlessly integrates the **Microsoft Edge Cloud Text-to-Speech (TTS) API** to lend a vibrant **voiceover** to the video. Opting for Microsoft Edge Cloud TTS API's voiceover is a deliberate choice, as it delivers a remarkably **natural and authentic** auditory experience, setting it apart from the often monotonous and artificial voiceovers prevalent in numerous TikTok videos.
+Discover Tiktok-Automation, an innovative AI-powered tool that leverages the prowess of **Edge TTS**, **OpenAI-Whisper**, and **FFMPEG** to craft captivating TikTok videos. Harnessing the capabilities of OpenAI's Whisper model, Tiktok-Automation effortlessly generates an accurate **transcription** from provided audio files, laying the foundation for the creation of mesmerizing TikTok videos through the utilization of **FFMPEG**. Additionally, the program seamlessly integrates the **Microsoft Edge Cloud Text-to-Speech (TTS) API** to lend a vibrant **voiceover** to the video. Opting for Microsoft Edge Cloud TTS API's voiceover is a deliberate choice, as it delivers a remarkably **natural and authentic** auditory experience, setting it apart from the often monotonous and artificial voiceovers prevalent in numerous TikTok videos.
 
 ## THIS IS NOT ALL MY CODE!!! THE ORIGINAL REPOSITORY IS:
 https://github.com/MatteoFasulo/Whisper-TikTok/
@@ -11,11 +11,11 @@ https://github.com/MatteoFasulo/Whisper-TikTok/
 
 ## Demo Video 🎬
 
-<https://github.com/MatteoFasulo/Whisper-TikTok/assets/74818541/68e25504-c305-4144-bd39-c9acc218c3a4>
+<https://github.com/MatteoFasulo/Tiktok-Automation/assets/74818541/68e25504-c305-4144-bd39-c9acc218c3a4>
 
 ## Operating Principle
 
-Employing Whisper-TikTok is a breeze: simply modify the [video.json](video.json). The JSON file contains the following fields:
+Employing Tiktok-Automation is a breeze: simply modify the [video.json](video.json). The JSON file contains the following fields:
 
 - `series`: The name of the series.
 - `part`: The part number of the video.
@@ -44,12 +44,12 @@ The program conducts the **sequence of actions** outlined below:
 
 ## Installation 🛠️
 
-Whisper-TikTok has undergone rigorous testing on Windows 10, Windows 11 and Ubuntu 23.04 systems equipped with **Python versions 3.8, 3.9 and 3.11**.
+Tiktok-Automation has undergone rigorous testing on Windows 10, Windows 11 and Ubuntu 23.04 systems equipped with **Python versions 3.8, 3.9 and 3.11**.
 
 First clone the repository
 
 ```bash
-git clone https://github.com/MatteoFasulo/Whisper-TikTok.git
+git clone https://github.com/MatteoFasulo/Tiktok-Automation.git
 ```
 
 # Dependencies 🌿
@@ -88,7 +88,7 @@ Please note that for optimal performance, it's advisable to have a GPU when usin
 
 ## Webui 📝
 
-To embark on your Whisper-TikTok journey, initiate the following command within your terminal:
+To embark on your Tiktok-Automation journey, initiate the following command within your terminal:
 
 ```bash
 python app.py 
@@ -96,7 +96,7 @@ python app.py
 
 ## Command-Line 📝
 
-To embark on your Whisper-TikTok journey, initiate the following command within your terminal:
+To embark on your Tiktok-Automation journey, initiate the following command within your terminal:
 
 ```bash
 python main.py 
@@ -104,7 +104,7 @@ python main.py
 
 ## Command-Line Options
 
-Whisper-TikTok supports the following command-line options:
+Tiktok-Automation supports the following command-line options:
 
 ```
 python main.py [OPTIONS]
@@ -172,7 +172,7 @@ edge-tts --list-voices
 
 ## Code of Conduct
 
-Please review our [Code of Conduct](./CODE_OF_CONDUCT.md) before contributing to Whisper-TikTok.
+Please review our [Code of Conduct](./CODE_OF_CONDUCT.md) before contributing to Tiktok-Automation.
 
 ## Contributing
 
@@ -189,6 +189,6 @@ We welcome contributions from the community! Please see our [Contributing Guidel
 
 ## Acknowledgments
 
-- We'd like to give a huge thanks to [@rany2](https://www.github.com/rany2) for their [edge-tts](https://github.com/rany2/edge-tts) package, which made it possible to use the Microsoft Edge Cloud TTS API with Whisper-TikTok.
+- We'd like to give a huge thanks to [@rany2](https://www.github.com/rany2) for their [edge-tts](https://github.com/rany2/edge-tts) package, which made it possible to use the Microsoft Edge Cloud TTS API with Tiktok-Automation.
 - We also acknowledge the contributions of the Whisper model by [@OpenAI](https://github.com/openai/whisper) for robust speech recognition via large-scale weak supervision
-- Also [@jianfch](https://github.com/jianfch/stable-ts) for the stable-ts package, which made it possible to use the OpenAI Whisper model with Whisper-TikTok in a stable manner with font color and subtitle format options.
+- Also [@jianfch](https://github.com/jianfch/stable-ts) for the stable-ts package, which made it possible to use the OpenAI Whisper model with Tiktok-Automation in a stable manner with font color and subtitle format options.
